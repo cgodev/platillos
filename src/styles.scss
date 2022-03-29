@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+html{
+    min-height: 100%;
+}
+body{
+    background-color: #358FE1;
+    min-height: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text{
+    &--danger{
+        font-size: .5rem;
+        color: #C3002F;
+    }
+}
